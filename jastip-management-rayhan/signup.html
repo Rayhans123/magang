@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar - JastipPro</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="login-page">
+    <div class="login-card">
+      <div class="brand brand-center">
+        <div class="brand-mark">J</div>
+        <div>
+          <b>Jastip<span>Pro</span></b
+          ><small>Management System</small>
+        </div>
+      </div>
+      <h1>Daftar Akun Baru</h1>
+      <p class="muted">Buat akun untuk mulai mengelola bisnis jastip Anda.</p>
+      <form id="signupForm" class="form-stack">
+        <label
+          >Nama Lengkap<input
+            id="fullname"
+            required
+            placeholder="Masukkan nama lengkap"
+        /></label>
+        <label
+          >Email<input
+            id="email"
+            type="email"
+            required
+            placeholder="nama@email.com"
+        /></label>
+        <label
+          >Username<input
+            id="username"
+            required
+            placeholder="Pilih username"
+        /></label>
+        <label
+          >Password<input
+            id="password"
+            type="password"
+            required
+            placeholder="Minimal 6 karakter"
+        /></label>
+        <button class="btn btn-primary btn-block" type="submit">Daftar Sekarang</button>
+      </form>
+      <div class="demo-hint">
+        Sudah punya akun? <a href="index.html" style="color: #2563eb; font-weight: 600;">Masuk di sini</a>
+      </div>
+      <div id="signupError" class="error-text"></div>
+    </div>
+    <script src="js/storage.js"></script>
+    <script src="js/signup.js"></script>
+  </body>
+</html>
